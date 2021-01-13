@@ -8,7 +8,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "swift-package-collection-model",
+            name: "PackageCollectionModel",
             targets: ["swift-package-collection-model"]),
     ],
     dependencies: [
