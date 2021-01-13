@@ -232,6 +232,11 @@ extension JSONPackageCollectionModel.V1 {
 
         /// The Swift version
         public let swiftVersion: String
+        
+        public init(platform: Platform, swiftVersion: String) {
+            self.platform = platform
+            self.swiftVersion = swiftVersion
+        }
     }
 
     public struct License: Equatable, Codable {
